@@ -36,3 +36,21 @@ h1 {
     font-weight: 400;
     transform: translateZ(50px);
 }
+
+.container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container svg {
+    width: 32px;
+    height: 32px;
+    fill: #ffffff;
+    transition: fill 0.3s ease;
+    margin-top: 20px;
+    transform: translateZ(40px);
+}
+
+.container:hover svg {
+    fill: #c0c0c0;
+}
